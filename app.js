@@ -20,11 +20,12 @@ let request = https.request(options, (response) => {
 		body += data
 	})
 	response.on('end', () => {
-		console.log(body)
-		console.log(typeof body)
+		//TODO : Parse the data [done]
+		//convert string to JSON (javascript Object)
+		let profile = JSON.parse(body) //merubah string ke OBJECT
+		console.log(profile);
 	})
-//TODO : Parse the data
-//convert string to JSON (javascript Object)
+
 //TODO : Print out the data  
 })
 

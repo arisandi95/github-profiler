@@ -6,5 +6,5 @@ Solution : use nodeJS to connect to Github API to get profile info and print out
 # TODO
 [v] connect to Github API 
 [v] Read the data 
-[] Parse the data
+[v] Parse the data
 [] Print out the data  
