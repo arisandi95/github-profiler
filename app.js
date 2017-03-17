@@ -23,10 +23,12 @@ let request = https.request(options, (response) => {
 		//TODO : Parse the data [done]
 		//convert string to JSON (javascript Object)
 		let profile = JSON.parse(body) //merubah string ke OBJECT
-		console.log(profile);
+		//TODO : Print out the data  [done]
+		console.log(`type ${profile.type} have ${profile.followers}`);
+
 	})
 
-//TODO : Print out the data  
+
 })
 
 
